@@ -1,0 +1,22 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    min-height: 100vh;
+    widhth: 100vw;
+    display:block;
+    position: relative;
+    background-position: center center;
+    background-image: url("../images/base.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    z-index: -1;
+    padding-top: 24px;
+}
+
+.content h1 {
+    font-weight: 600;
+}
