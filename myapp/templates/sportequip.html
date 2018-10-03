@@ -2,18 +2,41 @@
 {% load staticfiles %}
 
 {% block css%}
-<link rel="stylesheet" href="{% static 'myapp\css\home.css' %}">
+<link rel="stylesheet" href="{% static 'myapp\css\equipment.css' %}">
 {% endblock%}
 
 {% block title %}S2_G4_Fall2018{% endblock %}
 
 {% block content %}
-<div>
-    <h1>Welcome to equipment webpage</h1>
-    <p>
-        More details will come later
-    </p>
-    <h2>Under construction webpage</h2>
+<div class="container">
+    <h1>Equipments</h1>
+    <h2>List of equipments</h2>
+    <div class="row text-center pt-5">
+        <div class="col-md-3">
+            <img src="{% static 'myapp/images/treadmill.jpg' %}" class="img-fluid" alt="Responsive image">
+            <p class="img-text">
+                Treadmill
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img src="{% static 'myapp/images/elliptical.jpg' %}" class="img-fluid" alt="Responsive image">
+            <p class = "img-text">
+                Elliptical Machine
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img src="{% static 'myapp/images/cycle.jpg' %}" class="img-fluid" alt="Responsive image">
+            <p class="img-text">
+                Exercie bike
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img src="{% static 'myapp/images/dumbell.jpg' %}" class="img-fluid" alt="Responsive image">
+            <p class="img-text">
+                Dumbells
+            </p>
+        </div>
+    </div>
 </div>
 
 {% endblock %}

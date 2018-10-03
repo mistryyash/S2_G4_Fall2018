@@ -11,11 +11,11 @@ def about(request):
 def advertise(request):
     return render(request, "advertise.html")
 
+def equipment(request):
+    return render(request, "sportequip.html")
+
 def signin(request):
     return render(request, "signin.html")
 
 def contact(request):
     return render(request, "contact.html")
-
-def equipment(request):
-    return render(request, "sportequip.html")

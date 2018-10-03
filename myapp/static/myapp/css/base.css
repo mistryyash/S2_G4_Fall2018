@@ -20,3 +20,7 @@ body {
 .content h1 {
     font-weight: 600;
 }
+
+.content h2 {
+    font-weight: 500;
+}
